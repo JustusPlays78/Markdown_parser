@@ -19,3 +19,6 @@ jobs:
 
       - name: Setup pnpm
         run: npm install
+
+      - name: Build pnpm
+        run: npm run bild
